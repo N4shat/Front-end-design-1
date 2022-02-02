@@ -1,0 +1,139 @@
+body{
+    background-image: url(conuct\ us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5%; padding-bottom: 0.5%;
+    margin-bottom: 4%;
+}
+.header a{
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: 800;   
+    border-bottom: solid 1px rgb(96, 128, 201);
+    transition-duration: 0.2s;
+    transition-property:all;
+    font-family: Acme ; 
+
+}
+.header a:hover{
+    background-color: rgb(251, 121, 159);
+    color: black;
+    
+}
+#h3{
+    border-color:  rgb(251, 121, 159);
+}
+.img{
+    width: 18%;
+    transform: skew(1deg, 10deg);
+    transition-delay: 0.5s;
+    transition-duration: 0.3s;
+    
+    
+}
+#one{
+    margin-left: 5%;
+}
+#six{
+    margin-left: 5%;
+}
+
+#one:hover{
+    transform:scale(1.2)
+    
+}
+#two:hover{
+    transform:scale(1.2)
+    
+
+}
+#three:hover{
+    transform:scale(1.2)
+    
+    
+}
+#four:hover{
+    transform:scale(1.2)
+    
+    
+}
+#five:hover{
+    transform:scale(1.2)
+    
+    
+}
+#six:hover{
+    transform:scale(1.2)
+    
+}
+#seven:hover{
+    transform:scale(1.2)
+    
+    
+}
+#eight:hover{
+    transform:scale(1.2)
+}
+#nine:hover{
+    transform:scale(1.2)
+}
+#ten:hover{
+    transform:scale(1.2)
+
+}
+.finn{
+    float: left;
+    
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 8%;
+    border-top: solid rgb(251, 121, 159);
+}
+.b_img {
+    width: 22%;
+    height: 99%;
+    
+}
+
+.text {
+    font-size:x-large;
+    padding-top: 3%;
+    padding-left: 20px; 
+    text-align: left;
+    color:#ffffff;
+    font-weight: 600;
+    text-align: justify;
+    margin-right: 2%;
+}
+.text::first-letter{
+    font-size: 200%;
+    font-weight: 400;
+    color: rgb(96, 128, 201);
+}
+
+#flame_princess{
+    width: 18%;
+}
+#bubblegym{
+    width: 12%;
+}
+#gunter{
+    width: 22%;
+    height: 40%;
+    margin-top: 15%;
+    
+}
+
+
+

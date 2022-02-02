@@ -1,0 +1,72 @@
+body{
+    background-image: url(./home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.img{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5%; padding-bottom: 0.5%;
+}
+.header a{
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: 800;   
+    border-bottom: solid 1px rgb(96, 128, 201);
+    transition-duration: 0.2s;
+    transition-property:all;
+    font-family: Acme ; 
+
+}
+.header a:hover{
+    background-color: rgb(251, 121, 159);
+    color: black;
+    
+}
+#h1{
+    border-color: rgb(251, 121, 159);
+}
+.butten{
+    display: flex;
+    justify-content: center;
+    margin-top: -1%; margin-right: -1%;
+}
+.watch.butten{
+    border: 1px solid rgb(251, 121, 159);
+    font-size: xx-large;
+    padding: 1%;
+    margin-left: -4%;
+    box-shadow: 4px 5px 4px #000000;
+    transition-duration: 0.3s;
+    transition-property:all;
+    background-color: #ffffff10;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+.watch.butten a{
+    color:white;
+    text-decoration: none;
+    font-family: acme;
+    
+}
+
+
+.watch.butten:hover{
+    background-color:rgb(251, 121, 159);
+    border-color: rgb(96, 128, 201);
+}
+.watch.butten a:hover{
+    color : black;
+}
+
